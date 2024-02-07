@@ -1,0 +1,13 @@
+@import "variables";
+
+body {
+  margin: 0;
+}
+
+.container {
+  max-width: $container-max-width;
+}
+
+/* Mobile First */
+@media only screen and (min-width: $container-max-width) {
+}
