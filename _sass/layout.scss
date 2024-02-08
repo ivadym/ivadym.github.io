@@ -4,11 +4,11 @@ body {
   margin: 0;
 }
 
-.container {
-  max-width: $container-max-width;
+.content {
+  max-width: $content-max-width;
   margin: auto;
 }
 
 /* Mobile First */
-@media only screen and (min-width: $container-max-width) {
+@media only screen and (min-width: $content-max-width) {
 }
