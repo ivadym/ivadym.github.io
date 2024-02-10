@@ -8,24 +8,25 @@ body {
 }
 
 .content {
-  max-width: $content-max-width;
+  width: $content-width;
   margin: auto;
 }
 
 .profile-logo {
   img {
-    max-width: $profile-max-width;
+    width: $profile-width;
     border-radius: $profile-radius;
   }
 }
 
 .icon {
   text-decoration: none;
+  width: $icon-width;
   img {
-    max-width: $icon-max-width;
+    width: $icon-width;
   }
 }
 
 /* Mobile First */
-@media only screen and (min-width: $content-max-width) {
+@media only screen and (min-width: $content-width) {
 }
