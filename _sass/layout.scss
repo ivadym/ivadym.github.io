@@ -19,11 +19,16 @@ body {
   }
 }
 
-.icon {
-  text-decoration: none;
-  width: $icon-width;
+.profile-links {
+  a {
+    text-decoration: none;
+    width: $icon-width;
+    height: $icon-width;
+    display: inline-block;
+  }
   img {
     width: $icon-width;
+    height: $icon-width;
   }
 }
 
