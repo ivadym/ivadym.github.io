@@ -1,4 +1,30 @@
 <header>
-  <h1>{{ site.title }}</h1>
-  <img src="/assets/images/vadym.png" alt="Vadym Ivanchuk" />
+  <div class="profile-container">
+    <div class="profile-title">
+      <h1>{{ site.title }}</h1>
+    </div>
+    <div class="profile-logo">
+      <img src="/assets/images/vadym.png" alt="Vadym Ivanchuk" />
+    </div>
+    <div class="profile-links">
+      <a href="{{ site.github }}" target="_blank" class="icon">
+        <img src="/assets/images/github.svg" alt="GitHub Account" />
+      </a>
+      <a href="{{ site.twitter }}" target="_blank" class="icon">
+        <img src="/assets/images/x-twitter.svg" alt="Twitter Account" />
+      </a>
+      <a href="mailto:{{ site.email }}" class="icon">
+        <img src="/assets/images/envelope.svg" alt="Email Address" />
+      </a>
+    </div>
+    <div class="profile-description">
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+        labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+        laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+        voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+        cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+      </p>
+    </div>
+  </div>
 </header>

@@ -12,9 +12,18 @@ body {
   margin: auto;
 }
 
-img {
-  max-width: $profile-max-width;
-  border-radius: $profile-radius;
+.profile-logo {
+  img {
+    max-width: $profile-max-width;
+    border-radius: $profile-radius;
+  }
+}
+
+.icon {
+  text-decoration: none;
+  img {
+    max-width: $icon-max-width;
+  }
 }
 
 /* Mobile First */
