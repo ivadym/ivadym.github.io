@@ -1,11 +1,11 @@
 # Site settings
 title: Vadym Ivanchuk
 email: vadym.ivanchuk@gmail.com
+github: https://github.com/ivadym
+twitter: https://twitter.com/VadymIvanchuk
 description: Ventures of a Biomedical Engineer
 baseurl: ""
 url: "http://ivadym.github.io"
-twitter_username: VadymIvanchuk
-github_username: ivadym
 
 # Build settings
 plugins:
