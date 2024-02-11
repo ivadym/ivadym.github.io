@@ -1,15 +1,16 @@
 // Main content
-$content-width: 768px;
+$body-margin: 20px;
+$content-max-width: 768px;
+$desktop-view-width: 600px;
 $font-family: sans-serif;
 $font-weight: 300;
-$line-heigh: 1.3;
-$body-margin: 20px;
-$vertical-margin: 10px;
 $horizontal-margin: 20px;
+$line-heigh: 1.3;
+$vertical-margin: 10px;
 
 // Profile photo
-$profile-width: 250px;
 $profile-radius: 10px;
+$profile-width: 250px;
 
 // Icons
 $icon-width: 45px;
