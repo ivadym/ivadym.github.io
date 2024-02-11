@@ -1,0 +1,13 @@
+/* Content styles */
+
+body {
+  font-family: $font-family;
+  font-weight: $font-weight;
+  line-height: $line-heigh;
+  margin: $body-margin;
+}
+
+.content {
+  margin: auto;
+  max-width: $content-max-width;
+}
