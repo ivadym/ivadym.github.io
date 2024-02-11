@@ -5,7 +5,8 @@
 body {
   font-family: $font-family;
   font-weight: $font-weight;
-  margin: 20px;
+  line-height: $line-heigh;
+  margin: $body-margin;
 }
 
 .content {
@@ -23,6 +24,9 @@ body {
 .profile-title {
   grid-area: title;
   text-align: center;
+  h1 {
+    margin: 0px 0px $vertical-margin 0px;
+  }
 }
 
 .profile-logo {
@@ -60,12 +64,11 @@ body {
 /* Mobile First */
 
 @media only screen and (min-width: $content-width) {
-  /* Content styles */
-  body {
-    margin: 20px auto;
-  }
-
   /* Header responsive styles */
+
+  .profile-logo {
+    margin-right: $horizontal-margin;
+  }
 
   .profile-container {
     grid-template-areas: "logo title" "logo description";
