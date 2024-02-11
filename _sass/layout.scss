@@ -16,26 +16,54 @@ body {
 
 /* Header styles */
 
+.profile-container {
+  display: grid;
+  grid-template-areas: "title" "logo" "links" "description";
+}
+
+.profile-title {
+  grid-area: title;
+  text-align: center;
+}
+
 .profile-logo {
+  grid-area: logo;
+  text-align: center;
+
   img {
     width: $profile-width;
     border-radius: $profile-radius;
   }
+
+  .profile-links {
+    grid-area: links;
+    text-align: center;
+
+    a {
+      text-decoration: none;
+      width: $icon-width;
+      height: $icon-width;
+      display: inline-block;
+    }
+
+    img {
+      width: $icon-width;
+      height: $icon-width;
+    }
+  }
 }
 
-.profile-links {
-  a {
-    text-decoration: none;
-    width: $icon-width;
-    height: $icon-width;
-    display: inline-block;
-  }
-  img {
-    width: $icon-width;
-    height: $icon-width;
-  }
+.profile-description {
+  grid-area: description;
+  text-align: justify;
 }
 
 /* Mobile First */
+
 @media only screen and (min-width: $content-width) {
+  /* Header responsive styles */
+
+  .profile-container {
+    grid-template-areas: "logo title" "logo description";
+  }
 }
