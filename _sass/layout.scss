@@ -1,5 +1,7 @@
 @import "variables";
 
+/* Content styles */
+
 body {
   font-family: $font-family;
   font-weight: $font-weight;
@@ -8,9 +10,11 @@ body {
 }
 
 .content {
-  width: $content-width;
+  max-width: $content-width;
   margin: auto;
 }
+
+/* Header styles */
 
 .profile-logo {
   img {
