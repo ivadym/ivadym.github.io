@@ -2,7 +2,8 @@
 
 .profile-container {
   display: grid;
-  grid-template-areas: "title" "logo" "links" "description";
+  grid-template-areas: "title" "logo" "description";
+  gap: $gap;
 }
 
 .profile-title {
