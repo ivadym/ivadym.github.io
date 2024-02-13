@@ -51,11 +51,9 @@
   }
 }
 
-/* Mobile First */
+/* Header responsive styles */
 
 @media only screen and (min-width: $desktop-view-width) {
-  /* Header responsive styles */
-
   .profile-container {
     grid-template-areas: "logo title" "logo description";
     grid-template-rows: auto 1fr;
