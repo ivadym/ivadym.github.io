@@ -3,8 +3,8 @@
 .timeline-container {
   position: relative;
 
-  &:before {
-    background-color: #000;
+  &:after {
+    background-color: #000000;
     border-radius: $card-radius;
     bottom: 0;
     content: "";
@@ -16,16 +16,10 @@
 
 .timeline-card {
   border-radius: $card-radius;
-  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
-  position: relative;
-  transition: 0.3s;
+  box-shadow: $card-shadow;
 
   &:before {
     content: attr(data-timespan);
-  }
-
-  &:hover {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   }
 }
 
