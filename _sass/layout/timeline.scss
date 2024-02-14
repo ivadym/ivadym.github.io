@@ -1,13 +1,15 @@
 /* Timeline styles */
 
 .timeline-container {
+  margin: $body-margin 0;
   position: relative;
 
   &:after {
-    background-color: #000000;
+    background-color: $timeline-color;
     border-radius: $card-radius;
     bottom: 0;
     content: "";
+    left: -$timeline-width / 2;
     position: absolute;
     top: 0;
     width: $timeline-width;
@@ -17,9 +19,34 @@
 .timeline-card {
   border-radius: $card-radius;
   box-shadow: $card-shadow;
+  position: relative;
 
   &:before {
+    align-items: center;
     content: attr(data-timespan);
+    display: flex;
+    height: $timeline-circle-radius + $timeline-circle-border * 2;
+    position: absolute;
+    top: 0;
+    transform: translateX(calc(-100% - #{$timeline-circle-radius}));
+  }
+
+  &:after {
+    background-color: $timeline-color;
+    border-radius: 50%;
+    border: $timeline-circle-border solid invert($timeline-color);
+    content: "";
+    height: $timeline-circle-radius;
+    left: -($timeline-circle-radius + $timeline-circle-border) / 2 -$timeline-width / 2;
+    position: absolute;
+    top: 0;
+    width: $timeline-circle-radius;
+    z-index: 1;
+  }
+
+  img {
+    width: 125px;
+    height: 125px;
   }
 }
 
