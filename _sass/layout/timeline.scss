@@ -17,9 +17,18 @@
 }
 
 .timeline-container {
-  border-radius: $card-radius;
-  box-shadow: $card-shadow;
   position: relative;
+
+  &:before {
+    align-items: center;
+    content: attr(data-timespan);
+    display: flex;
+    font-size: $date-font-size;
+    height: $timeline-circle-radius + $timeline-circle-border * 2;
+    position: absolute;
+    top: 0;
+    transform: translateX($timeline-circle-radius);
+  }
 
   &:after {
     background-color: $timeline-color;
@@ -33,7 +42,9 @@
     width: $timeline-circle-radius;
     z-index: 1;
   }
+}
 
+.timeline-content {
   img {
     width: 125px;
     height: 125px;
@@ -49,13 +60,6 @@
 
   .timeline-container {
     &:before {
-      align-items: center;
-      content: attr(data-timespan);
-      display: flex;
-      font-size: $date-font-size;
-      height: $timeline-circle-radius + $timeline-circle-border * 2;
-      position: absolute;
-      top: 0;
       transform: translateX(calc(-100% - #{$timeline-circle-radius}));
     }
   }
