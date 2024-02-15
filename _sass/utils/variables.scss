@@ -21,4 +21,4 @@ $date-font-size: 14px;
 $timeline-circle-radius: 20px;
 $timeline-circle-border: $timeline-circle-radius / 5;
 $timeline-color: #000000;
-$timeline-width: 4px;
+$timeline-width: $timeline-circle-border;
