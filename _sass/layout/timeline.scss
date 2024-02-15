@@ -1,6 +1,6 @@
 /* Timeline styles */
 
-.timeline-container {
+.timeline {
   margin: $body-margin 0;
   position: relative;
 
@@ -16,7 +16,7 @@
   }
 }
 
-.timeline-card {
+.timeline-container {
   border-radius: $card-radius;
   box-shadow: $card-shadow;
   position: relative;
@@ -43,11 +43,11 @@
 /* Timeline responsive styles */
 
 @media only screen and (min-width: $desktop-view-width) {
-  .timeline-container {
+  .timeline {
     margin-left: $profile-width / 2;
   }
 
-  .timeline-card {
+  .timeline-container {
     &:before {
       align-items: center;
       content: attr(data-timespan);

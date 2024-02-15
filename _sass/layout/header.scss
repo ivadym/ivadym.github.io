@@ -1,6 +1,6 @@
 /* Header styles */
 
-.profile-container {
+.profile {
   display: grid;
   gap: $gap;
   grid-template-areas: "title" "logo" "description";
@@ -54,7 +54,7 @@
 /* Header responsive styles */
 
 @media only screen and (min-width: $desktop-view-width) {
-  .profile-container {
+  .profile {
     grid-template-areas: "logo title" "logo description";
     grid-template-rows: auto 1fr;
   }
