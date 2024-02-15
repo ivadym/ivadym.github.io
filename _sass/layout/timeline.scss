@@ -4,6 +4,7 @@
   margin: $body-margin 0;
   position: relative;
 
+  /* Vertical rules */
   &:after {
     background-color: $timeline-color;
     border-radius: $card-radius;
@@ -19,6 +20,7 @@
 .timeline-container {
   position: relative;
 
+  /* Time stamp */
   &:before {
     align-items: center;
     content: attr(data-timespan);
@@ -30,6 +32,7 @@
     transform: translateX($timeline-circle-radius);
   }
 
+  /* Circles on the timeline */
   &:after {
     background-color: $timeline-color;
     border-radius: 50%;
@@ -59,6 +62,7 @@
   }
 
   .timeline-container {
+    /* Time stamp */
     &:before {
       transform: translateX(calc(-100% - #{$timeline-circle-radius}));
     }
