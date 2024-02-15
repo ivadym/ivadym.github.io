@@ -52,6 +52,7 @@
       align-items: center;
       content: attr(data-timespan);
       display: flex;
+      font-size: $date-font-size;
       height: $timeline-circle-radius + $timeline-circle-border * 2;
       position: absolute;
       top: 0;
