@@ -6,6 +6,7 @@
 
 .timeline-container {
   display: grid;
+  column-gap: $gap;
   grid-template-areas: "ruler date" "ruler description";
   grid-template-columns: auto 1fr;
 }
@@ -67,7 +68,9 @@
     grid-template-columns: $timeline-date-width auto 1fr;
   }
 
-  .timespan {
-    justify-content: right;
+  .timeline-date {
+    .timespan {
+      justify-content: right;
+    }
   }
 }
