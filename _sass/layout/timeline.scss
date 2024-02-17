@@ -57,6 +57,7 @@
 
 .timeline-card {
   grid-area: card;
+  padding-bottom: $body-margin;
 
   img {
     height: 100px;
