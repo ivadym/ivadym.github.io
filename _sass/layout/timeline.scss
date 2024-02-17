@@ -12,6 +12,13 @@
 
 .timeline-date {
   grid-area: date;
+
+  .timespan {
+    align-items: center;
+    display: flex;
+    font-size: $timespan-font-size;
+    height: $timeline-circle-width + $timeline-circle-border-width * 2;
+  }
 }
 
 .timeline-ruler {
@@ -60,7 +67,7 @@
     grid-template-columns: $timeline-date-width auto 1fr;
   }
 
-  .timeline-date {
-    text-align: right;
+  .timespan {
+    justify-content: right;
   }
 }
