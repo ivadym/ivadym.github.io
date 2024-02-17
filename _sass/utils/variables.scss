@@ -15,5 +15,8 @@ $profile-width: 250px;
 $icon-width: 45px;
 
 // Timeline
+$timeline-circle-border-width: 4px;
+$timeline-circle-width: 14px;
 $timeline-ruler-width: 2px;
 $timeline-date-width: $profile-width / 2 - $gap - $timeline-ruler-width / 2;
+$timeline-ruler-color: black;

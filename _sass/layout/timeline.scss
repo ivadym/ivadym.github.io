@@ -16,8 +16,22 @@
 
 .timeline-ruler {
   background-color: black;
+  border-radius: $profile-radius;
   grid-area: ruler;
+  position: relative;
   width: $timeline-ruler-width;
+
+  /* Timeline circles */
+  &:after {
+    background-color: $timeline-ruler-color;
+    border-radius: 50%;
+    border: $timeline-circle-border-width solid white;
+    content: "";
+    height: $timeline-circle-width;
+    left: -($timeline-circle-width + $timeline-circle-border-width) / 2 -$timeline-ruler-width / 2;
+    position: absolute;
+    width: $timeline-circle-width;
+  }
 }
 
 .timeline-description {
