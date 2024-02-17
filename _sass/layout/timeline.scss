@@ -73,4 +73,12 @@
       justify-content: right;
     }
   }
+
+  .timeline-description {
+    h4 {
+      align-items: center;
+      display: flex;
+      height: $timeline-circle-width + $timeline-circle-border-width * 2;
+    }
+  }
 }
