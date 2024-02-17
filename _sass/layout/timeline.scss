@@ -56,13 +56,23 @@
 }
 
 .timeline-card {
+  display: grid;
   grid-area: card;
-  padding-bottom: $body-margin;
+  grid-template-areas: "logo description";
+  padding: $body-margin 0px;
+}
+
+.timeline-logo {
+  grid-area: logo;
 
   img {
-    height: 100px;
-    width: 100px;
+    height: $timeline-logo-width;
+    width: $timeline-logo-width;
   }
+}
+
+.timeline-description {
+  grid-area: description;
 
   p {
     margin: 0px;
