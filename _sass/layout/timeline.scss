@@ -8,7 +8,7 @@
   display: grid;
   column-gap: $gap;
   grid-template-areas: "ruler date title" "ruler card card";
-  grid-template-columns: auto 1fr;
+  grid-template-columns: auto auto 1fr;
 }
 
 .timeline-date {
@@ -46,7 +46,12 @@
   grid-area: title;
 
   h4 {
+    align-items: center;
+    display: flex;
+    height: $timeline-circle-width + $timeline-circle-border-width * 2;
+    justify-content: right;
     margin: 0px;
+    text-align: right;
   }
 }
 
@@ -79,9 +84,7 @@
 
   .timeline-title {
     h4 {
-      align-items: center;
-      display: flex;
-      height: $timeline-circle-width + $timeline-circle-border-width * 2;
+      justify-content: left;
     }
   }
 }
