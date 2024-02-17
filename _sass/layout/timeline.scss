@@ -1,6 +1,43 @@
 /* Timeline styles */
 
+.timeline {
+  margin: 20px 0px;
+}
+
+.timeline-container {
+  display: grid;
+  grid-template-areas: "ruler date" "ruler content";
+}
+
+.timeline-date {
+  grid-area: date;
+}
+
+.timeline-ruler {
+  grid-area: ruler;
+}
+
+.timeline-content {
+  grid-area: content;
+
+  h4 {
+    margin: 0px;
+  }
+
+  img {
+    width: 100px;
+    height: 100px;
+  }
+
+  p {
+    margin: 0px;
+  }
+}
+
 /* Timeline responsive styles */
 
 @media only screen and (min-width: $desktop-view-width) {
+  .timeline-container {
+    grid-template-areas: "date ruler content";
+  }
 }
