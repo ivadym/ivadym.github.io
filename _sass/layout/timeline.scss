@@ -56,6 +56,7 @@
 }
 
 .timeline-card {
+  column-gap: $gap / 2;
   display: grid;
   grid-area: card;
   grid-template-areas: "logo description";
