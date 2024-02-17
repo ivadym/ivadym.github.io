@@ -6,7 +6,7 @@
 
 .timeline-container {
   display: grid;
-  grid-template-areas: "ruler date" "ruler content";
+  grid-template-areas: "ruler date" "ruler description";
   grid-template-columns: auto 1fr;
 }
 
@@ -20,8 +20,8 @@
   width: $timeline-ruler-width;
 }
 
-.timeline-content {
-  grid-area: content;
+.timeline-description {
+  grid-area: description;
 
   h4 {
     margin: 0px;
@@ -42,7 +42,7 @@
 @media only screen and (min-width: $desktop-view-width) {
   .timeline-container {
     gap: $gap;
-    grid-template-areas: "date ruler content";
+    grid-template-areas: "date ruler description";
     grid-template-columns: $timeline-date-width auto 1fr;
   }
 
