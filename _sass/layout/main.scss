@@ -8,7 +8,11 @@ body {
   margin: $body-margin;
 }
 
-.content {
+.main {
   margin: auto;
   max-width: $content-max-width;
+}
+
+footer {
+  text-align: center;
 }
