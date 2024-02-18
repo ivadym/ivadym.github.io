@@ -1,18 +1,19 @@
 // Main content
 $body-margin: 20px;
-$content-max-width: 768px;
+$container-radius: 10px;
 $desktop-view-width: 600px;
 $font-family: "Roboto", sans-serif;
 $font-size: 16px;
 $font-weight: 300;
 $line-heigh: 1.3;
+$main-max-width: 768px;
+$section-margin: 10px;
 
 // Grid
-$gap: 20px;
+$grid-gap: 20px;
 $grid-padding: 10px;
 
 // Profile photo
-$profile-radius: 10px;
 $profile-width: 250px;
 
 // Icons
@@ -22,10 +23,11 @@ $icon-width: 45px;
 $timeline-circle-width: 14px;
 $timeline-ruler-width: $timeline-circle-width / 7;
 $timeline-circle-border-width: $timeline-ruler-width * 2;
-$timeline-date-width: $profile-width / 2 - $gap - $timeline-ruler-width / 2;
+$timeline-date-width: $profile-width / 2 - $grid-gap - $timeline-ruler-width / 2;
 $timeline-logo-width: 75px;
 $timeline-ruler-color: black;
 $timespan-font-size: 12px;
 
 // Projects
 $box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+$card-padding: 5px;

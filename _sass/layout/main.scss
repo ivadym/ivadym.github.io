@@ -13,7 +13,7 @@ body {
 
   hr {
     border-top: 1px solid $timeline-ruler-color;
-    border-radius: $profile-radius;
+    border-radius: $container-radius;
     margin-bottom: $body-margin;
   }
 
@@ -24,7 +24,7 @@ body {
 
 .main {
   margin: auto;
-  max-width: $content-max-width;
+  max-width: $main-max-width;
 }
 
 footer {

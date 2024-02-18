@@ -1,16 +1,16 @@
 /* Projects styles */
 
 .projects {
-  margin: $body-margin * 2 0;
+  margin: $section-margin 0;
 }
 
 .card {
-  border-radius: $profile-radius;
+  border-radius: $container-radius;
   box-shadow: $box-shadow;
-  padding: $grid-padding / 2;
+  padding: $card-padding;
 
   img {
-    border-radius: $profile-radius;
+    border-radius: $container-radius;
     width: 100%;
   }
 }

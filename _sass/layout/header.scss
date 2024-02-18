@@ -2,7 +2,7 @@
 
 .profile {
   display: grid;
-  gap: $gap;
+  gap: $grid-gap;
   grid-template-areas: "title" "logo" "description";
 }
 
@@ -16,7 +16,7 @@
   text-align: center;
 
   img {
-    border-radius: $profile-radius;
+    border-radius: $container-radius;
     width: $profile-width;
   }
 

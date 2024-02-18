@@ -1,12 +1,12 @@
 /* Timeline styles */
 
 .timeline {
-  margin: $body-margin * 2 0;
+  margin: $section-margin 0;
 }
 
 .timeline-container {
   display: grid;
-  column-gap: $gap;
+  column-gap: $grid-gap;
   grid-template-areas: "ruler date title" "ruler card card";
   grid-template-columns: auto auto 1fr;
 }
@@ -24,7 +24,7 @@
 
 .timeline-ruler {
   background-color: black;
-  border-radius: $profile-radius;
+  border-radius: $container-radius;
   grid-area: ruler;
   position: relative;
   width: $timeline-ruler-width;
@@ -55,7 +55,7 @@
 }
 
 .timeline-card {
-  column-gap: $gap / 2;
+  column-gap: $grid-gap / 2;
   display: grid;
   grid-area: card;
   grid-template-areas: "logo description";
