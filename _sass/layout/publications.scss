@@ -2,6 +2,20 @@
 
 .publications {
   margin: $section-margin 0;
+
+  .column {
+    display: flex;
+  }
+}
+
+.paper-logo {
+  border-radius: $container-radius;
+  box-shadow: $box-shadow;
+  padding: $card-padding;
+
+  img {
+    width: $timeline-logo-width;
+  }
 }
 
 /* Publications responsive styles */
