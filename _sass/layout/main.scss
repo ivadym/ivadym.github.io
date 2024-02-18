@@ -10,7 +10,13 @@ body {
   h1, h2, h3, h4, h5, h6 {
     margin: 0;
   }
-  
+
+  hr {
+    border-top: 1px solid $timeline-ruler-color;
+    border-radius: $profile-radius;
+    margin-bottom: $body-margin;
+  }
+
   p {
     margin: 0;
   }
