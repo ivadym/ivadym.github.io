@@ -9,10 +9,6 @@
 .profile-title {
   grid-area: title;
   text-align: center;
-
-  h1 {
-    margin: 0px;
-  }
 }
 
 .profile-logo {
@@ -45,10 +41,6 @@
 .profile-description {
   grid-area: description;
   text-align: justify;
-
-  p {
-    margin: 0px;
-  }
 }
 
 /* Header responsive styles */

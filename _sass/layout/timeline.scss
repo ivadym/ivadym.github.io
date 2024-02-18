@@ -1,7 +1,7 @@
 /* Timeline styles */
 
 .timeline {
-  margin: $body-margin 0px;
+  margin: $body-margin 0;
 }
 
 .timeline-container {
@@ -50,7 +50,6 @@
     display: flex;
     height: $timeline-circle-width + $timeline-circle-border-width * 2;
     justify-content: right;
-    margin: 0px;
     text-align: right;
   }
 }
@@ -60,7 +59,7 @@
   display: grid;
   grid-area: card;
   grid-template-areas: "logo description";
-  padding: $body-margin 0px;
+  padding: $body-margin 0;
 }
 
 .timeline-logo {
@@ -74,10 +73,6 @@
 
 .timeline-description {
   grid-area: description;
-
-  p {
-    margin: 0px;
-  }
 }
 
 /* Timeline responsive styles */
