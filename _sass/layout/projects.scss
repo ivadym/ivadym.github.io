@@ -1,0 +1,33 @@
+/* Projects styles */
+
+.projects {
+  margin: $body-margin * 2 0;
+
+  * {
+    box-sizing: border-box;
+  }
+}
+
+.column {
+  float: left;
+  width: 100%;
+}
+
+/* Clear floats after the columns */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+/* Projects responsive styles */
+
+@media only screen and (min-width: $desktop-view-width) {
+  .column {
+    width: 33.33%;
+  }
+}
