@@ -10,7 +10,13 @@
 
 .column {
   float: left;
+  padding: $card-padding;
   width: 100%;
+}
+
+/* Remove extra margins due to padding */
+.row {
+  margin: -$card-padding;
 }
 
 /* Clear floats after the columns */
@@ -21,13 +27,20 @@
 }
 
 .card {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  border-radius: $profile-radius;
+  box-shadow: $box-shadow;
+  padding: $card-padding / 2;
+
+  img {
+    border-radius: $profile-radius;
+    width: 100%;
+  }
 }
 
 /* Projects responsive styles */
 
 @media only screen and (min-width: $desktop-view-width) {
   .column {
-    width: 33.33%;
+    width: 50%;
   }
 }
