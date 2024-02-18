@@ -2,34 +2,12 @@
 
 .projects {
   margin: $body-margin * 2 0;
-
-  * {
-    box-sizing: border-box;
-  }
-}
-
-.column {
-  float: left;
-  padding: $card-padding;
-  width: 100%;
-}
-
-/* Remove extra margins due to padding */
-.row {
-  margin: -$card-padding;
-}
-
-/* Clear floats after the columns */
-.row::after {
-  content: "";
-  clear: both;
-  display: table;
 }
 
 .card {
   border-radius: $profile-radius;
   box-shadow: $box-shadow;
-  padding: $card-padding / 2;
+  padding: $grid-padding / 2;
 
   img {
     border-radius: $profile-radius;
@@ -40,7 +18,9 @@
 /* Projects responsive styles */
 
 @media only screen and (min-width: $desktop-view-width) {
-  .column {
-    width: 50%;
+  .projects {
+    .column {
+      width: 50%;
+    }
   }
 }

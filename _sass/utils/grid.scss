@@ -1,0 +1,23 @@
+/* Grid utility styles */
+
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  padding: $grid-padding;
+  width: 100%;
+}
+
+/* Remove extra margins due to padding */
+.row {
+  margin: -$grid-padding;
+}
+
+/* Clear floats after the columns */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
