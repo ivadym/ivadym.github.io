@@ -2,20 +2,30 @@
 
 .publications {
   margin: $section-margin 0;
+}
 
-  .column {
-    display: flex;
-    align-items: center;
-  }
+.paper {
+  column-gap: $grid-gap;
+  display: grid;
+  gap: $grid-gap;
+  grid-template-areas: "logo description" "buttons description";
+  grid-template-rows: 1fr auto;
+  margin: $grid-gap 0;
 }
 
 .paper-logo {
-  align-items: center;
-  border-radius: $container-radius;
-  box-shadow: $box-shadow;
   display: flex;
-  margin-right: $grid-gap;
-  padding: $card-padding;
+  flex-direction: column;
+  grid-area: logo;
+  justify-content: center;
+
+  .paper-image {
+    align-items: center;
+    border-radius: $container-radius;
+    box-shadow: $box-shadow;
+    display: flex;
+    padding: $card-padding;
+  }
 
   img {
     width: $publication-logo-width;
@@ -23,6 +33,11 @@
 }
 
 .paper-description {
+  display: flex;
+  flex-direction: column;
+  gap: $grid-gap / 5;
+  grid-area: description;
+
   .paper-title {
     font-weight: bold;
   }
@@ -32,7 +47,21 @@
   }
 }
 
+.paper-buttons {
+  column-gap: $grid-gap / 2;
+  display: flex;
+  grid-area: buttons;
+  justify-content: space-around;
+}
+
 /* Publications responsive styles */
 
 @media only screen and (min-width: $desktop-view-width) {
+  .paper {
+    grid-template-areas: "logo description" "logo buttons";
+  }
+
+  .paper-buttons {
+    justify-content: left;
+  }
 }
