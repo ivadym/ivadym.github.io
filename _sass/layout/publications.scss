@@ -5,17 +5,20 @@
 
   .column {
     display: flex;
+    align-items: center;
   }
 }
 
 .paper-logo {
+  align-items: center;
   border-radius: $container-radius;
   box-shadow: $box-shadow;
+  display: flex;
   margin-right: $grid-gap;
   padding: $card-padding;
 
   img {
-    width: $timeline-logo-width;
+    width: $publication-logo-width;
   }
 }
 

@@ -5,8 +5,10 @@
 }
 
 .card {
+  align-items: center;
   border-radius: $container-radius;
   box-shadow: $box-shadow;
+  display: flex;
   padding: $card-padding;
 
   img {
