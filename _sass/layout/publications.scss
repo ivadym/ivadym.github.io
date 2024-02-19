@@ -11,10 +11,21 @@
 .paper-logo {
   border-radius: $container-radius;
   box-shadow: $box-shadow;
+  margin-right: $grid-gap;
   padding: $card-padding;
 
   img {
     width: $timeline-logo-width;
+  }
+}
+
+.paper-description {
+  .paper-title {
+    font-weight: bold;
+  }
+
+  .paper-journal {
+    font-style: italic;
   }
 }
 
