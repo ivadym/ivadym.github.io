@@ -25,7 +25,7 @@ $timeline-ruler-width: $timeline-circle-width / 7;
 $timeline-circle-border-width: $timeline-ruler-width * 2;
 $timeline-date-width: $profile-width / 2 - $grid-gap - $timeline-ruler-width / 2;
 $timeline-logo-width: 75px;
-$timeline-ruler-color: black;
+$timeline-ruler-color: rgba(0, 0, 0, 0);
 $timespan-font-size: 12px;
 
 // Projects
@@ -33,4 +33,7 @@ $box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 $card-padding: 10px;
 
 // Publications
+$button-color: rgba(0, 0, 0, 0.6);
+$button-hover-color: rgb(0, 0, 0);
+$button-padding: 10px;
 $publication-logo-width: 125px;

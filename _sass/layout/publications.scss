@@ -55,8 +55,18 @@
   justify-content: space-evenly;
 
   button {
-    padding: 5px;
+    background-color: transparent;
+    border-radius: $container-radius / 2;
+    border: 1px solid $button-color;
+    color: $button-color;
+    padding: $button-padding 0;
     width: $publication-logo-width;
+
+    &:hover,
+    &:active {
+      border-color: $button-hover-color;
+      color: $button-hover-color;
+    }
   }
 }
 
@@ -74,5 +84,9 @@
   .paper-buttons {
     flex-direction: row;
     justify-content: left;
+
+    button {
+      padding: $button-padding / 2 0;
+    }
   }
 }
