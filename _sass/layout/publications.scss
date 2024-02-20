@@ -54,12 +54,14 @@
   grid-area: buttons;
   justify-content: space-evenly;
 
-  button {
-    background-color: transparent;
+  .button {
     border-radius: $container-radius / 2;
     border: 1px solid $button-color;
     color: $button-color;
+    font-size: $button-font-size;
     padding: $button-padding 0;
+    text-align: center;
+    text-decoration: none;
     width: $publication-logo-width;
 
     &:hover,
@@ -85,8 +87,8 @@
     flex-direction: row;
     justify-content: left;
 
-    button {
-      padding: $button-padding / 2 0;
+    .button {
+      padding: $button-padding / 4 0;
     }
   }
 }
