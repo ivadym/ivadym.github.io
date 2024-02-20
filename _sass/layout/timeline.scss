@@ -63,10 +63,11 @@
 }
 
 .timeline-logo {
+  align-items: center;
+  display: flex;
   grid-area: logo;
 
   img {
-    height: $timeline-logo-width;
     width: $timeline-logo-width;
   }
 }
