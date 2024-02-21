@@ -56,16 +56,14 @@
 
 .timeline-card {
   column-gap: $grid-gap / 2;
-  display: grid;
+  display: flex;
   grid-area: card;
-  grid-template-areas: "logo description";
   padding: $body-margin 0;
 }
 
 .timeline-logo {
   align-items: center;
   display: flex;
-  grid-area: logo;
 
   img {
     width: $timeline-logo-width;
@@ -73,7 +71,7 @@
 }
 
 .timeline-description {
-  grid-area: description;
+  text-align: justify;
 }
 
 /* Timeline responsive styles */
