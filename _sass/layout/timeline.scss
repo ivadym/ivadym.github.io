@@ -55,17 +55,19 @@
 }
 
 .timeline-card {
-  column-gap: $grid-gap / 2;
+  column-gap: $grid-gap;
   display: flex;
   grid-area: card;
   padding: $body-margin 0;
 }
 
 .timeline-logo {
-  align-items: center;
-  display: flex;
-
   img {
+    align-items: center;
+    border-radius: $container-radius;
+    box-shadow: $box-shadow;
+    display: flex;
+    padding: $card-padding / 2;
     width: $timeline-logo-width;
   }
 }
