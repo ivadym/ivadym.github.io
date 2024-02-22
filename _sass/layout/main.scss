@@ -7,14 +7,19 @@ body {
   line-height: $line-heigh;
   margin: $body-margin;
 
-  h1, h2, h3, h4, h5, h6 {
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
     margin: 0;
   }
 
   hr {
     border-top: 1px solid $timeline-ruler-color;
     border-radius: $container-radius;
-    margin-bottom: $body-margin;
+    margin-bottom: $body-margin * 2;
   }
 
   p {
