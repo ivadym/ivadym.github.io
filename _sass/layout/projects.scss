@@ -31,7 +31,11 @@
 /* Projects responsive styles */
 
 @media only screen and (min-width: $desktop-view-width) {
-  // .projects-column {
-  //   flex: 25%;
-  // }
+  .projects-row {
+    flex-direction: row;
+  }
+
+  .projects-column {
+    flex: 50%;
+  }
 }
