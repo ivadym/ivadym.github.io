@@ -14,19 +14,15 @@
 }
 
 .paper-logo {
+  align-items: center;
   display: flex;
   grid-area: logo;
 
-  .paper-image {
-    align-items: center;
-    display: flex;
-
-    img {
-      border-radius: $container-radius;
-      box-shadow: $box-shadow;
-      padding: $card-padding;
-      width: $publication-logo-width;
-    }
+  img {
+    border-radius: $container-radius;
+    box-shadow: $box-shadow;
+    padding: $card-padding;
+    width: $publication-logo-width;
   }
 }
 
