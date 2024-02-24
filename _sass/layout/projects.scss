@@ -11,13 +11,13 @@
 
 .projects-card {
   align-items: center;
-  border-radius: $container-radius;
-  box-shadow: $box-shadow;
   display: flex;
-  padding: $card-padding;
 
   img {
     border-radius: $container-radius;
+    border-radius: $container-radius;
+    box-shadow: $box-shadow;
+    padding: $card-padding;
     width: 100%;
   }
 }
