@@ -55,6 +55,7 @@
 }
 
 .timeline-card {
+  align-items: center;
   column-gap: $grid-gap;
   display: flex;
   grid-area: card;
