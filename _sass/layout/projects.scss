@@ -9,6 +9,7 @@
   border-radius: $container-radius;
   box-shadow: $box-shadow;
   display: flex;
+  margin: $grid-gap 0;
   padding: $card-padding;
 
   img {
@@ -20,9 +21,4 @@
 /* Projects responsive styles */
 
 @media only screen and (min-width: $desktop-view-width) {
-  .projects {
-    .column {
-      width: 50%;
-    }
-  }
 }
