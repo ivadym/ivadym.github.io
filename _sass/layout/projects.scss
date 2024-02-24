@@ -6,7 +6,14 @@
 
 .projects-row {
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: column;
+  gap: $grid-gap;
+}
+
+.projects-column {
+  display: flex;
+  gap: $grid-gap;
+  flex-direction: column;
 }
 
 .projects-card {
@@ -14,7 +21,6 @@
   display: flex;
 
   img {
-    border-radius: $container-radius;
     border-radius: $container-radius;
     box-shadow: $box-shadow;
     padding: $card-padding;
@@ -25,7 +31,7 @@
 /* Projects responsive styles */
 
 @media only screen and (min-width: $desktop-view-width) {
-  .projects-column {
-    flex: 50%;
-  }
+  // .projects-column {
+  //   flex: 25%;
+  // }
 }
