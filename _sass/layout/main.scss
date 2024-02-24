@@ -17,9 +17,9 @@ body {
   }
 
   hr {
-    border-top: 1px solid $timeline-ruler-color;
     border-radius: $container-radius;
-    margin-bottom: $body-margin * 2;
+    border-top: 1px solid $timeline-ruler-color;
+    margin-bottom: $grid-gap;
   }
 
   p {

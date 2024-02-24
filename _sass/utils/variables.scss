@@ -1,6 +1,5 @@
 // Main content
 $body-margin: 20px;
-$container-radius: 5px;
 $desktop-view-width: 600px;
 $font-family: "Roboto", sans-serif;
 $font-size: 16px;
@@ -10,14 +9,14 @@ $main-max-width: 768px;
 $section-margin: 40px;
 
 // Grid
+$box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+$card-padding: 5px;
+$container-radius: 5px;
 $grid-gap: 20px;
-$grid-padding: 10px;
 
-// Profile photo
-$profile-width: 250px;
-
-// Icons
+// Profile
 $icon-width: 45px;
+$profile-width: 250px;
 
 // Timeline
 $timeline-circle-width: 14px;
@@ -27,10 +26,6 @@ $timeline-date-width: $profile-width / 2 - $grid-gap - $timeline-ruler-width / 2
 $timeline-logo-width: 75px;
 $timeline-ruler-color: rgb(0, 0, 0);
 $timespan-font-size: 12px;
-
-// Projects
-$box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-$card-padding: 5px;
 
 // Publications
 $button-color: rgba(0, 0, 0, 0.6);

@@ -58,7 +58,7 @@
   column-gap: $grid-gap;
   display: flex;
   grid-area: card;
-  padding: $body-margin 0;
+  padding: $grid-gap 0;
 }
 
 .timeline-logo {
