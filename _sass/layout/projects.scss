@@ -4,12 +4,16 @@
   margin: $section-margin 0;
 }
 
-.card {
+.projects-row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.projects-card {
   align-items: center;
   border-radius: $container-radius;
   box-shadow: $box-shadow;
   display: flex;
-  margin: $grid-gap 0;
   padding: $card-padding;
 
   img {
@@ -21,4 +25,7 @@
 /* Projects responsive styles */
 
 @media only screen and (min-width: $desktop-view-width) {
+  .projects-column {
+    flex: 50%;
+  }
 }
