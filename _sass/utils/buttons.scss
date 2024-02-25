@@ -1,7 +1,23 @@
 // Buttons common styles
 
 .buttons {
+  display: flex;
+  gap: $grid-gap / 2;
 }
 
 .button {
+  align-items: center;
+  border-radius: $button-radius;
+  border: 1px solid $button-color;
+  color: $button-color;
+  display: flex;
+  padding: $button-padding;
+  text-align: center;
+  text-decoration: none;
+
+  &:hover,
+  &:active {
+    border-color: $button-hover-color;
+    color: $button-hover-color;
+  }
 }

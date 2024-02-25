@@ -14,6 +14,12 @@ $card-padding: 5px;
 $container-radius: 5px;
 $grid-gap: 20px;
 
+// Buttons
+$button-color: rgba(0, 0, 0, 0.6);
+$button-hover-color: rgb(0, 0, 0);
+$button-padding: 2px;
+$button-radius: 2px;
+
 // Profile
 $icon-width: 45px;
 $profile-width: 250px;
@@ -28,8 +34,4 @@ $timeline-ruler-color: rgb(0, 0, 0);
 $timespan-font-size: 12px;
 
 // Publications
-$button-color: rgba(0, 0, 0, 0.6);
-$button-font-size: 14px;
-$button-hover-color: rgb(0, 0, 0);
-$button-padding: 10px;
 $publication-logo-width: 125px;
