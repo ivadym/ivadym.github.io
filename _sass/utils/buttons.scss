@@ -11,8 +11,8 @@
   border: 1px solid $button-color;
   color: $button-color;
   display: flex;
+  justify-content: center;
   padding: $button-padding;
-  text-align: center;
   text-decoration: none;
 
   &:hover,
