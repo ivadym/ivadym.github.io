@@ -39,6 +39,12 @@
   .project-description {
     padding: $grid-gap / 2 0;
   }
+
+  .project-buttons {
+    .button {
+      width: 100%;
+    }
+  }
 }
 
 /* Projects responsive styles */
