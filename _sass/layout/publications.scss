@@ -40,27 +40,12 @@
 
 .paper-buttons {
   align-items: center;
-  display: flex;
   flex-direction: column;
-  gap: $grid-gap / 2;
-  grid-area: buttons;
   justify-content: space-evenly;
 
   .button {
-    border-radius: $container-radius / 2;
-    border: 1px solid $button-color;
-    color: $button-color;
-    font-size: $button-font-size;
-    padding: $button-padding 0;
-    text-align: center;
-    text-decoration: none;
-    width: $publication-logo-width;
-
-    &:hover,
-    &:active {
-      border-color: $button-hover-color;
-      color: $button-hover-color;
-    }
+    padding: $button-padding * 4;
+    width: 75%;
   }
 }
 
@@ -85,7 +70,8 @@
     justify-content: left;
 
     .button {
-      padding: $button-padding / 4 0;
+      padding: $button-padding;
+      width: 25%;
     }
   }
 }
