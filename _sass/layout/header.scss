@@ -47,6 +47,7 @@
 
 @media only screen and (min-width: $desktop-view-width) {
   .profile {
+    column-gap: $grid-gap * 2;
     grid-template-areas: "logo title" "logo description";
     grid-template-rows: auto 1fr;
   }
