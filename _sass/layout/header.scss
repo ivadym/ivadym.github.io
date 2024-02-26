@@ -12,29 +12,41 @@
 }
 
 .profile-logo {
+  display: flex;
+  gap: $grid-gap / 2;
   grid-area: logo;
-  text-align: center;
+  justify-content: center;
+}
+
+.profile-image {
+  align-items: center;
+  display: flex;
 
   img {
     border-radius: $container-radius;
     max-width: $profile-width;
     width: 100%;
   }
+}
 
-  .profile-links {
-    grid-area: links;
-    text-align: center;
+.profile-links {
+  display: flex;
+  flex-direction: column;
+  grid-area: links;
+  justify-content: space-between;
 
-    a {
-      display: inline-block;
-      height: $icon-width;
-      text-decoration: none;
-      width: $icon-width;
-    }
+  a,
+  img {
+    height: $icon-width;
+    width: $icon-width;
+  }
 
-    img {
-      height: $icon-width;
-      width: $icon-width;
+  img {
+    filter: opacity(80%);
+
+    &:hover,
+    &:active {
+      filter: opacity(100%);
     }
   }
 }
