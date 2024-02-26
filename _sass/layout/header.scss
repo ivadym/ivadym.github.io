@@ -24,6 +24,7 @@
 
   img {
     border-radius: $container-radius;
+    box-shadow: $box-shadow;
     max-width: $profile-width;
     width: 100%;
   }
@@ -42,6 +43,8 @@
   }
 
   img {
+    border-radius: $container-radius;
+    box-shadow: $box-shadow;
     filter: opacity(80%);
 
     &:hover,
@@ -62,6 +65,19 @@
   .profile {
     grid-template-areas: "logo title" "logo description";
     grid-template-rows: auto 1fr;
+  }
+
+  .profile-logo {
+    flex-direction: column;
+    gap: $grid-gap / 4;
+  }
+
+  .profile-image {
+    width: $profile-width;
+  }
+
+  .profile-links {
+    flex-direction: row;
   }
 
   .profile-description {
