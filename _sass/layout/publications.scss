@@ -42,7 +42,7 @@
 .paper-buttons {
   align-items: center;
   flex-direction: column;
-  justify-content: space-around;
+  justify-content: space-evenly;
 
   .button {
     padding: $button-padding * 4;
