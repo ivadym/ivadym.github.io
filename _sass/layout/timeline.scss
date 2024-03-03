@@ -14,9 +14,9 @@
 .timeline-date {
   align-items: center;
   display: flex;
+  font-size: $timeline-timespan-font-size;
   grid-area: date;
   height: $timeline-circle-width + $timeline-circle-border-width * 2;
-  font-size: $timespan-font-size;
 }
 
 .timeline-ruler {
@@ -49,6 +49,7 @@
 }
 
 .timeline-description {
+  font-size: $timeline-description-font-size;
   grid-area: description;
   margin-bottom: $grid-gap;
 

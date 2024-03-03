@@ -31,9 +31,12 @@ $timeline-circle-border-width: $timeline-ruler-width * 2;
 $timeline-date-width: $profile-width / 2 - $grid-gap - $timeline-ruler-width / 2;
 $timeline-logo-width: 75px;
 $timeline-ruler-color: rgb(0, 0, 0);
+
+// Timeline font sizes
+$timeline-description-font-size: 16px;
+$timeline-timespan-font-size: 12px;
 $timeline-title-font-size-desktop: 18px;
 $timeline-title-font-size: 16px;
-$timespan-font-size: 12px;
 
 // Publications
 $publication-logo-width: 125px;
