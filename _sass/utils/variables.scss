@@ -15,8 +15,9 @@ $container-radius: 5px;
 $grid-gap: 20px;
 
 // Buttons
-$button-color: rgba(0, 0, 0, 0.6);
-$button-hover-color: rgb(0, 0, 0);
+$button-color: rgb(0, 0, 0);
+$button-font-size: 14px;
+$button-hover-color: rgb(0, 118, 223);
 $button-padding: 2px;
 $button-radius: 2px;
 
@@ -40,3 +41,4 @@ $timeline-title-font-size-mobile: 16px;
 // Publications
 $publication-font-size: 16px;
 $publication-logo-width: 125px;
+$publications-buttom-width-desktop: 75px;

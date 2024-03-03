@@ -46,7 +46,7 @@
 
   .button {
     padding: $button-padding * 4;
-    width: 75%;
+    width: 50%;
   }
 }
 
@@ -72,7 +72,7 @@
 
     .button {
       padding: $button-padding;
-      width: 25%;
+      width: $publications-buttom-width-desktop;
     }
   }
 }
