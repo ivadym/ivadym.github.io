@@ -42,7 +42,7 @@
 .timeline-title {
   align-items: flex-start;
   display: flex;
-  font-size: $timeline-title-font-size;
+  font-size: $timeline-title-font-size-mobile;
   grid-area: title;
   justify-content: right;
   text-align: right;
@@ -82,7 +82,7 @@
   }
 
   .timeline-title {
-    font-size: $timeline-title-font-size-desktop;
+    font-size: inherit;
     justify-content: left;
     text-align: left;
   }
