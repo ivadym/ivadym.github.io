@@ -29,6 +29,7 @@
 .paper-description {
   display: flex;
   flex-direction: column;
+  font-size: $publication-font-size;
   gap: $grid-gap / 5;
   grid-area: description;
   text-align: justify;
