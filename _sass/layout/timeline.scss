@@ -11,7 +11,7 @@
   grid-template-columns: auto auto 1fr;
 }
 
-.timeline-date {
+.timeline-timespan {
   align-items: center;
   display: flex;
   font-size: $timeline-timespan-font-size;
@@ -74,10 +74,10 @@
 @media only screen and (min-width: $desktop-view-width) {
   .timeline-container {
     grid-template-areas: "date ruler title" "date ruler description";
-    grid-template-columns: $timeline-date-width auto 1fr;
+    grid-template-columns: $timeline-timespan-width auto 1fr;
   }
 
-  .timeline-date {
+  .timeline-timespan {
     justify-content: right;
   }
 
