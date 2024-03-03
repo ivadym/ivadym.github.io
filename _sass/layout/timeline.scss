@@ -7,7 +7,7 @@
 .timeline-container {
   display: grid;
   gap: $grid-gap / 2 $grid-gap;
-  grid-template-areas: "ruler date title" "ruler card card";
+  grid-template-areas: "ruler date title" "ruler description description";
   grid-template-columns: auto auto 1fr;
 }
 
@@ -54,24 +54,20 @@
   }
 }
 
-.timeline-card {
-  align-items: flex-start;
-  column-gap: $grid-gap;
-  display: flex;
-  grid-area: card;
-}
-
 .timeline-description {
-  text-align: justify;
-}
+  grid-area: description;
+  margin-bottom: $grid-gap;
 
-.timeline-logo {
-  align-items: center;
-  display: flex;
+  p {
+    text-align: justify;
+  }
 
   img {
     border-radius: $container-radius;
     box-shadow: $box-shadow;
+    float: right;
+    margin-bottom: $grid-gap;
+    margin-left: $grid-gap;
     padding: $card-padding;
     width: $timeline-logo-width;
   }
@@ -81,7 +77,7 @@
 
 @media only screen and (min-width: $desktop-view-width) {
   .timeline-container {
-    grid-template-areas: "date ruler title" "date ruler card";
+    grid-template-areas: "date ruler title" "date ruler description";
     grid-template-columns: $timeline-date-width auto 1fr;
   }
 
