@@ -12,14 +12,11 @@
 }
 
 .timeline-date {
+  align-items: center;
+  display: flex;
   grid-area: date;
-
-  .timespan {
-    align-items: center;
-    display: flex;
-    font-size: $timespan-font-size;
-    height: $timeline-circle-width + $timeline-circle-border-width * 2;
-  }
+  height: $timeline-circle-width + $timeline-circle-border-width * 2;
+  font-size: $timespan-font-size;
 }
 
 .timeline-ruler {
@@ -43,15 +40,11 @@
 }
 
 .timeline-title {
+  align-items: flex-start;
+  display: flex;
   grid-area: title;
-
-  h4 {
-    align-items: center;
-    display: flex;
-    height: $timeline-circle-width + $timeline-circle-border-width * 2;
-    justify-content: right;
-    text-align: right;
-  }
+  justify-content: right;
+  text-align: right;
 }
 
 .timeline-description {
@@ -83,14 +76,11 @@
   }
 
   .timeline-date {
-    .timespan {
-      justify-content: right;
-    }
+    justify-content: right;
   }
 
   .timeline-title {
-    h4 {
-      justify-content: left;
-    }
+    justify-content: left;
+    text-align: left;
   }
 }
