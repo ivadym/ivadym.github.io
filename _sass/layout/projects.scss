@@ -12,8 +12,8 @@
 
 .project-column {
   display: flex;
-  gap: $grid-gap;
   flex-direction: column;
+  gap: $grid-gap;
 }
 
 .project-card {
@@ -21,29 +21,29 @@
   box-shadow: $box-shadow;
   padding: $card-padding * 2;
   text-align: justify;
+}
 
-  .project-image {
-    align-items: center;
-    display: flex;
-    margin-bottom: $grid-gap;
+.project-image {
+  align-items: center;
+  display: flex;
+  margin-bottom: $grid-gap;
 
-    img {
-      width: 100%;
-    }
+  img {
+    width: 100%;
   }
+}
 
-  .project-subtitle {
-    color: $button-color;
-  }
+.project-subtitle {
+  color: $button-color;
+}
 
-  .project-description {
-    padding: $grid-gap / 2 0;
-  }
+.project-description {
+  padding: $grid-gap / 2 0;
+}
 
-  .project-buttons {
-    .button {
-      width: 100%;
-    }
+.project-buttons {
+  .button {
+    width: 100%;
   }
 }
 
