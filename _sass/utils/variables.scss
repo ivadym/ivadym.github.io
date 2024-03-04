@@ -17,7 +17,7 @@ $grid-gap: 20px;
 // Buttons
 $button-color: rgb(0, 0, 0);
 $button-font-size: 14px;
-$button-hover-color: rgb(0, 118, 223);
+$button-hover-color: #0076df;
 $button-padding: 2px;
 $button-radius: 2px;
 
@@ -37,6 +37,11 @@ $timeline-timespan-width: $profile-width / 2 - $grid-gap - $timeline-ruler-width
 $timeline-description-font-size: 16px;
 $timeline-timespan-font-size: 14px;
 $timeline-title-font-size-mobile: 16px;
+
+// Project
+$project-description-font-size: 16px;
+$project-subtitle-color: #6c757d;
+$project-subtitle-font-size: 17px;
 
 // Publications
 $publication-font-size: 16px;

@@ -34,11 +34,14 @@
 }
 
 .project-subtitle {
-  color: $button-color;
+  color: $project-subtitle-color;
+  font-size: $project-subtitle-font-size;
 }
 
 .project-description {
-  padding: $grid-gap / 2 0;
+  font-size: $project-description-font-size;
+  padding-bottom: $grid-gap;
+  padding-top: $grid-gap / 2;
 }
 
 .project-buttons {
