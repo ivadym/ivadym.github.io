@@ -6,8 +6,8 @@
 
 .timeline-container {
   display: grid;
-  gap: $grid-gap / 2 $grid-gap;
-  grid-template-areas: "ruler date title" "ruler description description";
+  gap: 0 $grid-gap;
+  grid-template-areas: "ruler date date" "ruler title title" "ruler description description";
   grid-template-columns: auto auto 1fr;
 }
 
@@ -40,12 +40,10 @@
 }
 
 .timeline-title {
-  align-items: flex-start;
-  display: flex;
   font-size: $timeline-title-font-size-mobile;
   grid-area: title;
-  justify-content: right;
-  text-align: right;
+  padding-bottom: $grid-gap / 4;
+  padding-top: $grid-gap / 2;
 }
 
 .timeline-description {
