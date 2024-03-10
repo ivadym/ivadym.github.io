@@ -20,7 +20,7 @@
 }
 
 .timeline-ruler {
-  background-color: black;
+  background-color: $timeline-ruler-color;
   border-radius: $container-radius;
   grid-area: ruler;
   position: relative;
