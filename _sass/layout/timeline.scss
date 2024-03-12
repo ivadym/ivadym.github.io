@@ -17,6 +17,22 @@
   font-size: $timeline-timespan-font-size;
   grid-area: date;
   height: $timeline-circle-width + $timeline-circle-border-width * 2;
+  position: relative;
+
+  .degree {
+    align-items: center;
+    background-color: white;
+    border-radius: 50%;
+    display: flex;
+    left: -$grid-gap - $timeline-circle-width -$timeline-ruler-width / 2;
+    padding: $timeline-circle-border-width;
+    position: absolute;
+    z-index: 1;
+  }
+
+  img {
+    width: $timeline-circle-width * 1.5;
+  }
 }
 
 .timeline-ruler {
@@ -77,6 +93,10 @@
 
   .timeline-timespan {
     justify-content: flex-end;
+
+    .degree {
+      left: $timeline-timespan-width + $timeline-circle-width / 2 + $timeline-circle-border-width;
+    }
   }
 
   .timeline-title {
