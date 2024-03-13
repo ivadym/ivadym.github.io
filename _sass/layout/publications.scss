@@ -5,12 +5,16 @@
 }
 
 .paper {
-  column-gap: $grid-gap;
   display: grid;
+  gap: $grid-gap;
   grid-template-areas: "logo buttons" "description description";
   grid-template-columns: auto 1fr;
   margin: $grid-gap 0;
   row-gap: $grid-gap / 2;
+}
+
+.paper-title {
+  padding-bottom: $grid-gap / 4;
 }
 
 .paper-logo {
@@ -30,7 +34,6 @@
   display: flex;
   flex-direction: column;
   font-size: $publication-font-size;
-  gap: $grid-gap / 6;
   grid-area: description;
   text-align: justify;
 
