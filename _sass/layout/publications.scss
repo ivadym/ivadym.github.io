@@ -58,6 +58,7 @@
 @media only screen and (min-width: $desktop-view-width) {
   .paper {
     grid-template-areas: "logo description" "logo buttons";
+    grid-template-rows: auto 1fr;
   }
 
   .paper-logo {
@@ -69,7 +70,7 @@
   }
 
   .paper-buttons {
-    align-items: flex-end;
+    align-items: flex-start;
     flex-direction: row;
     justify-content: left;
 
