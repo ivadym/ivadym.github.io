@@ -16,6 +16,11 @@ body {
     margin: 0;
   }
 
+  a {
+    color: $button-hover-color;
+    text-decoration: none;
+  }
+
   hr {
     border-radius: $container-radius;
     border-top: 1px solid $timeline-ruler-color;
