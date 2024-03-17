@@ -68,7 +68,6 @@
   margin-bottom: $grid-gap;
 
   p {
-    overflow: auto;
     text-align: justify;
   }
 
@@ -76,7 +75,6 @@
     border-radius: $container-radius;
     box-shadow: $box-shadow;
     float: right;
-    margin-bottom: $grid-gap;
     margin-left: $grid-gap;
     padding: $card-padding;
     width: $timeline-logo-width;
