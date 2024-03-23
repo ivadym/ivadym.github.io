@@ -1,3 +1,4 @@
-github: https://github.com/ivadym
-twitter: https://twitter.com/VadymIvanchuk
-scholar: https://scholar.google.com/citations?hl=en&user=mkH9jCIAAAAJ
+header:
+  github: https://github.com/ivadym
+  scholar: https://scholar.google.com/citations?hl=en&user=mkH9jCIAAAAJ
+  x_twitter: https://twitter.com/VadymIvanchuk
