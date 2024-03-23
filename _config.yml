@@ -1,6 +1,7 @@
 # Site settings
 title: Vadym Ivanchuk
-email: vadym.ivanchuk@gmail.com
+email: vadym.ivanchuk@scilifelab.se
+description: Vadym Ivanchuk's Portfolio
 url: http://ivadym.github.io
 
 # Build settings
