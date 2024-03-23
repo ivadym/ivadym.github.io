@@ -1,7 +1,7 @@
 # Site settings
 title: Vadym Ivanchuk
 email: vadym.ivanchuk@gmail.com
-url: "http://ivadym.github.io"
+url: http://ivadym.github.io
 
 # Build settings
 plugins:

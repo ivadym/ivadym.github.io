@@ -1,1 +1,44 @@
-<h1>{{ site.title }}</h1>
+<div class="header">
+  <div class="header-title">
+    <h1>{{ site.title }}</h1>
+  </div>
+  <div class="header-logo">
+    <div class="header-image">
+      <img src="{{ site.data.assets.images.profile }}" alt="Vadym Ivanchuk" />
+    </div>
+    <div class="header-links">
+      <a href="{{ site.data.urls.github }}">
+        <img src="{{ site.data.assets.images.github }}" alt="GitHub account" />
+      </a>
+      <a href="{{ site.data.urls.x_twitter }}">
+        <img src="{{ site.data.assets.images.x_twitter }}" alt="Twitter account" />
+      </a>
+      <a href="{{ site.data.urls.scholar }}">
+        <img src="{{ site.data.assets.images.scholar }}" alt="Google scholar account" />
+      </a>
+      <a href="{{ site.data.assets.pdfs.cv }}">
+        <img src="{{ site.data.assets.images.cv }}" alt="Curriculum vitae" />
+      </a>
+      <a href="mailto:{{ site.email }}">
+        <img src="{{ site.data.assets.images.envelope }}" alt="Email address" />
+      </a>
+    </div>
+  </div>
+  <div class="header-description">
+    <p>
+      I'm a biomedical engineer committed to advancing precision medicine through a blend of
+      engineering, computer science, data science, and biomedicine.
+    </p>
+    <p>
+      My main focus is on bridging the gap between research and clinical practice, translating
+      scientific advancements into practical solutions that directly benefit patients. With
+      expertise in bioinformatics, machine learning, and electronic systems, I've led projects
+      ranging from developing bioinformatics pipelines for cancer research to designing AI-based
+      devices for multifaceted rehabilitation.
+    </p>
+    <p>
+      Feel free to explore my webpage to learn more about my past projects and contributions to the
+      field.
+    </p>
+  </div>
+</div>
