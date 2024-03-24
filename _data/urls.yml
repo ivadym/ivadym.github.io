@@ -2,3 +2,9 @@ header:
   github: https://github.com/ivadym
   scholar: https://scholar.google.com/citations?hl=en&user=mkH9jCIAAAAJ
   x_twitter: https://twitter.com/VadymIvanchuk
+
+publications:
+  beyondcell_github: https://github.com/cnio-bu/beyondcell
+  beyondcell_paper: https://doi.org/10.1186/s13073-021-01001-x
+  vALK_github: https://github.com/ivadym/vALK
+  vALK_paper: https://doi.org/10.1002/1878-0261.13033
