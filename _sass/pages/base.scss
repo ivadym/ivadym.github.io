@@ -54,4 +54,8 @@ a {
 main {
   margin: auto;
   max-width: $content-width;
+
+  .section-title {
+    margin: $spacing-unit 0;
+  }
 }
