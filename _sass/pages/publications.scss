@@ -1,1 +1,35 @@
 /* Publications styles */
+
+.paper {
+}
+
+.paper-logo {
+  img {
+    border-radius: $border-radius;
+    box-shadow: $border-shadow;
+    padding: $spacing-unit * 0.25;
+    width: 100%;
+  }
+}
+
+.paper-description {
+  .paper-title {
+  }
+
+  .paper-authors {
+  }
+
+  .paper-journal {
+  }
+}
+
+.paper-buttons {
+}
+
+@include desktop-view() {
+  .paper-logo {
+    img {
+      width: $publication-image-width;
+    }
+  }
+}
