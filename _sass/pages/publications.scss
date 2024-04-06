@@ -1,9 +1,10 @@
 /* Publications styles */
 
 .paper {
+  align-items: center;
   display: grid;
   grid-template-areas: "image" "title" "authors" "journal" "links";
-  margin-bottom: $spacing-unit;
+  margin-bottom: $spacing-unit * 2;
   text-align: justify;
 }
 
@@ -11,11 +12,11 @@
   align-items: center;
   display: flex;
   grid-area: image;
-  margin-bottom: $spacing-unit * 0.5;
 
   img {
     border-radius: $border-radius;
     box-shadow: $border-shadow;
+    margin-bottom: $spacing-unit * 0.5;
     padding: $spacing-unit * 0.25;
     width: 100%;
   }
@@ -43,10 +44,14 @@
 @include desktop-view() {
   .paper {
     column-gap: $spacing-unit;
-    grid-template-areas: "image title" " image authors" "image journal" "image links";
+    grid-template-areas: "image title" "image authors" "image journal" "image links";
+    grid-template-rows: repeat(3, auto) 1fr;
+    margin-bottom: $spacing-unit;
   }
 
   .paper-image {
+    align-self: flex-start;
+
     img {
       margin: 0;
       transition: transform 0.5s;
@@ -59,6 +64,11 @@
   }
 
   .paper-links {
-    margin: 0;
+    align-self: flex-start;
+    justify-content: flex-start;
+
+    .button {
+      max-width: $publications-button-width;
+    }
   }
 }
