@@ -2,8 +2,7 @@
 
 .paper {
   display: grid;
-  gap: $spacing-unit * 0.5;
-  grid-template-areas: "description" "logo" "buttons";
+  grid-template-areas: "image" "title" "authors" "journal" "links";
   margin-bottom: $spacing-unit;
 }
 
