@@ -3,8 +3,9 @@
 .paper {
   align-items: center;
   display: grid;
+  font-size: $secondary-font-size;
   grid-template-areas: "image" "title" "authors" "journal" "links";
-  margin-bottom: $spacing-unit * 2;
+  margin-bottom: $spacing-unit;
   text-align: justify;
 }
 
@@ -46,12 +47,9 @@
     column-gap: $spacing-unit;
     grid-template-areas: "image title" "image authors" "image journal" "image links";
     grid-template-rows: repeat(3, auto) 1fr;
-    margin-bottom: $spacing-unit;
   }
 
   .paper-image {
-    align-self: flex-start;
-
     img {
       margin: 0;
       transition: transform 0.5s;
