@@ -1,38 +1,7 @@
 /* Publications styles */
 
-.publications {
-  margin: $section-margin 0;
-}
-
-.paper {
-  display: grid;
-  gap: $grid-gap;
-  grid-template-areas: "logo buttons" "description description";
-  grid-template-columns: auto 1fr;
-  margin: $grid-gap 0;
-  row-gap: $grid-gap / 2;
-}
-
 .paper-title {
   padding-bottom: $grid-gap / 4;
-}
-
-.paper-logo {
-  align-items: center;
-  display: flex;
-  grid-area: logo;
-}
-
-.paper-description {
-  display: flex;
-  flex-direction: column;
-  font-size: $publication-font-size;
-  grid-area: description;
-  text-align: justify;
-
-  .paper-journal {
-    font-style: italic;
-  }
 }
 
 .paper-buttons {
@@ -49,19 +18,6 @@
 /* Publications responsive styles */
 
 @media only screen and (min-width: $desktop-view-width) {
-  .paper {
-    grid-template-areas: "logo description" "logo buttons";
-    grid-template-rows: auto 1fr;
-  }
-
-  .paper-logo {
-    transition: transform 0.5s;
-
-    &:hover {
-      transform: scale(1.75);
-    }
-  }
-
   .paper-buttons {
     align-items: flex-start;
     flex-direction: row;

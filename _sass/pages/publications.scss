@@ -1,9 +1,15 @@
 /* Publications styles */
 
 .paper {
+  display: grid;
+  gap: $spacing-unit * 0.5;
+  grid-template-areas: "description" "logo" "buttons";
+  margin-bottom: $spacing-unit;
 }
 
 .paper-logo {
+  grid-area: logo;
+
   img {
     border-radius: $border-radius;
     box-shadow: $border-shadow;
@@ -13,21 +19,33 @@
 }
 
 .paper-description {
+  grid-area: description;
+
   .paper-title {
+    font-weight: $bold-font-weight;
   }
 
   .paper-authors {
-  }
-
-  .paper-journal {
+    font-style: italic;
   }
 }
 
 .paper-buttons {
+  grid-area: buttons;
 }
 
 @include desktop-view() {
+  .paper {
+    grid-template-areas: "logo description" "logo buttons";
+  }
+
   .paper-logo {
+    transition: transform 0.5s;
+
+    &:hover {
+      transform: scale(1.75);
+    }
+
     img {
       width: $publication-image-width;
     }
