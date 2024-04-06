@@ -36,18 +36,18 @@
 
 @include desktop-view() {
   .paper {
-    grid-template-areas: "logo description" "logo buttons";
+    column-gap: $spacing-unit;
+    grid-template-areas: "image title" " image authors" "image journal" "image links";
   }
 
-  .paper-logo {
-    transition: transform 0.5s;
-
-    &:hover {
-      transform: scale(1.75);
-    }
-
+  .paper-image {
     img {
+      transition: transform 0.5s;
       width: $publication-image-width;
+
+      &:hover {
+        transform: scale(1.75);
+      }
     }
   }
 }
