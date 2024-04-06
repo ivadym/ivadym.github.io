@@ -4,10 +4,14 @@
   display: grid;
   grid-template-areas: "image" "title" "authors" "journal" "links";
   margin-bottom: $spacing-unit;
+  text-align: justify;
 }
 
-.paper-logo {
-  grid-area: logo;
+.paper-image {
+  align-items: center;
+  display: flex;
+  grid-area: image;
+  margin-bottom: $spacing-unit * 0.5;
 
   img {
     border-radius: $border-radius;
@@ -17,20 +21,23 @@
   }
 }
 
-.paper-description {
-  grid-area: description;
-
-  .paper-title {
-    font-weight: $bold-font-weight;
-  }
-
-  .paper-authors {
-    font-style: italic;
-  }
+.paper-title {
+  font-weight: $bold-font-weight;
+  grid-area: title;
 }
 
-.paper-buttons {
-  grid-area: buttons;
+.paper-authors {
+  font-style: italic;
+  grid-area: authors;
+}
+
+.paper-journal {
+  grid-area: journal;
+}
+
+.paper-links {
+  grid-area: links;
+  margin-top: $spacing-unit * 0.5;
 }
 
 @include desktop-view() {
@@ -41,6 +48,7 @@
 
   .paper-image {
     img {
+      margin: 0;
       transition: transform 0.5s;
       width: $publication-image-width;
 
@@ -48,5 +56,9 @@
         transform: scale(1.75);
       }
     }
+  }
+
+  .paper-links {
+    margin: 0;
   }
 }
