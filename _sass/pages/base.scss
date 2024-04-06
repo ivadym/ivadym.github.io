@@ -34,8 +34,7 @@ body {
 }
 
 hr {
-  margin-bottom: $spacing-unit;
-  margin-top: $spacing-unit;
+  margin: $spacing-unit * 0.5 0;
 }
 
 a {
@@ -60,6 +59,6 @@ main {
   max-width: $content-width;
 
   .section-title {
-    margin: $spacing-unit 0;
+    margin-bottom: $spacing-unit;
   }
 }
