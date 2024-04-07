@@ -3,6 +3,22 @@ header:
   scholar: https://scholar.google.com/citations?hl=en&user=mkH9jCIAAAAJ
   x_twitter: https://twitter.com/VadymIvanchuk
 
+timeline:
+  BIOGIPUZKOA_marcos: https://www.biodonostia.org/en/areas_investigacion/bioengineering/computacional-biology-and-systems-biomedicine/
+  CG: https://ki.se/en/research/clinical-genomics-stockholm-core-facility
+  CNIO_fatima: https://www.cnio.es/en/personas/fatima-al-shahrour-2
+  CNIO: https://bioinformatics.cnio.es
+  ETSIT: https://www.etsit.upm.es/de/studies/bachelor-of-engineering-in-telecommunication-technologies-and-services.html
+  LifeSTech_living_lab: https://www.lst.tfo.upm.es/living-labs/
+  LifeSTech_ma_teresa: https://www.lst.tfo.upm.es/ma-teresa/
+  LifeSTech: https://www.lst.tfo.upm.es/
+  MUIB_CF: https://www.comunidad.madrid/hospital/ramonycajal/ciudadanos/unidad-fibrosis-quistica
+  MUIB_enrique: http://www.gbt.tfo.upm.es/index.php/our-team/
+  MUIB: http://docencia.gbt.tfo.upm.es/en/master-universitario-en-ingenieria-biomedica-english/
+  Onkologikoa: https://www.onkologikoa.org/en/
+  PdH_atocha: https://scholar.google.es/citations?user=jv4FjIEAAAAJ&hl=es
+  PdH: http://investigacionpuertadehierro.com/laboratorio-biopsia-liquida/
+
 publications:
   beyondcell_github: https://github.com/cnio-bu/beyondcell
   beyondcell_paper: https://doi.org/10.1186/s13073-021-01001-x
