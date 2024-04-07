@@ -1,1 +1,47 @@
 /* Projects styles */
+
+.project {
+  align-items: center;
+  border-radius: $border-radius;
+  box-shadow: $border-shadow;
+  display: grid;
+  grid-template-areas: "image" "title" "subtitle" "description" "links";
+  margin-bottom: $spacing-unit;
+  padding: $spacing-unit * 0.5;
+  text-align: justify;
+}
+
+.project-image {
+  align-items: center;
+  display: flex;
+  grid-area: image;
+  margin-bottom: $spacing-unit;
+
+  img {
+    width: 100%;
+  }
+}
+
+.project-title {
+  grid-area: title;
+}
+
+.project-subtitle {
+  color: $secondary-color;
+  font-weight: $bold-font-weight;
+  grid-area: subtitle;
+}
+
+.project-description {
+  font-size: $secondary-font-size;
+  grid-area: description;
+  margin: $spacing-unit * 0.5 0;
+
+  p:nth-child(2) {
+    padding: $spacing-unit * 0.25 0;
+  }
+}
+
+.project-links {
+  grid-area: links;
+}
