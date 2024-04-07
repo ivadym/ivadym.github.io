@@ -12,7 +12,7 @@ images:
   timeline:
     BIOGIPUZKOA: /assets/images/timeline/BIOGIPUZKOA.png
     CNIO: /assets/images/timeline/CNIO.png
-    graduation_cap: /assets/images/timeline/graduation-cap.svg
+    graduation_cap: /assets/images/timeline/graduation_cap.svg
     KI: /assets/images/timeline/KI.png
     LifeSTech: /assets/images/timeline/LifeSTech.png
     PdH: /assets/images/timeline/PdH.png

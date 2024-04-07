@@ -40,7 +40,6 @@ hr {
 
 a {
   color: $link-color;
-  font-weight: $bold-font-weight;
   text-decoration: none;
 
   &:hover {
@@ -62,5 +61,9 @@ main {
 
   .section-title {
     margin-bottom: $spacing-unit;
+  }
+
+  .section {
+    margin-bottom: $spacing-unit * 2;
   }
 }
