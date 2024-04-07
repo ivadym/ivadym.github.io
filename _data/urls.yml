@@ -19,6 +19,12 @@ timeline:
   PdH_atocha: https://scholar.google.es/citations?user=jv4FjIEAAAAJ&hl=es
   PdH: http://investigacionpuertadehierro.com/laboratorio-biopsia-liquida/
 
+projects:
+  BALSAMIC: https://github.com/Clinical-Genomics/BALSAMIC
+  FERehab: https://github.com/ivadym/FERehab
+  liquid_biopsy_NSCLC: https://doi.org/10.1002/1878-0261.13033
+  vALK: https://github.com/ivadym/vALK
+
 publications:
   beyondcell_github: https://github.com/cnio-bu/beyondcell
   beyondcell_paper: https://doi.org/10.1186/s13073-021-01001-x

@@ -1,3 +1,131 @@
 <div class="projects section">
   <h2 id="Projects" class="section-title">Projects</h2>
+  <div class="project-item">
+    <div class="project-image">
+      <img src="{{ site.data.assets.images.projects.balsamic_poster }}" alt="BALSAMIC poster" />
+    </div>
+    <h3 class="project-title">BALSAMIC</h3>
+    <div class="project-subtitle">
+      Bioinformatic Analysis Pipeline for Somatic Mutations in Cancer
+    </div>
+    <div class="project-description">
+      <p>
+        BALSAMIC is a Clinical Genomics Core Facility effort aimed at facilitating the
+        identification of somatic mutations and the interpretation of large-scale DNA sequencing
+        data in cancer patients, paving the way for improved diagnostics, care, and treatment.
+      </p>
+      <p>
+        It is a Snakemake-based configurable bioinformatics pipeline that integrates multiple
+        somatic variant-calling algorithms to detect SNVs, InDels, CNVs, and SVs. BALSAMIC supports
+        whole-genome, whole-exome, and targeted gene sequencing, enabling the processing of
+        tumor-only and tumor-normal sample pairs, as well as assays with unique molecular
+        identifiers.
+      </p>
+      <p>
+        I am contributing to its development, maintenance, automation, and integration within the
+        group's infrastructure, as well as in addressing clinical visualisation and interpretation
+        needs.
+      </p>
+    </div>
+    <div class="project-links buttons">
+      <a href="{{ site.data.assets.pdfs.balsamic_poster }}" class="button">Poster</a>
+      <a href="{{ site.data.urls.projects.BALSAMIC }}" class="button">Code</a>
+    </div>
+  </div>
+  <div class="project-item">
+    <div class="project-image">
+      <img src="{{ site.data.assets.images.projects.vALK }}" alt="vALK bioinformatics pipeline" />
+    </div>
+    <h3 class="project-title">vALK</h3>
+    <div class="project-subtitle">
+      Bioinformatics Pipeline for the Detection of Somatic Mutations in Liquid Biopsy Samples from
+      Non-Small Cell Lung Cancer Patients
+    </div>
+    <div class="project-description">
+      <p>
+        As part of my master's thesis project, I developed a somatic variant filtering pipeline and
+        a user-friendly graphical interface with the goal of automating the manual curation of
+        next-generation sequencing data conducted by clinicians and researchers at Puerta de Hierro
+        University Hospital.
+      </p>
+      <p>
+        This project involved integrating experimental and computational methodologies to identify
+        resistance mutations, provide guidance for clinical treatment decisions, and improve
+        understanding of the screening and diagnostic capabilities of liquid biopsies.
+      </p>
+      <p>
+        Some of the results and methodologies obtained led to the publication of an article, and
+        currently, the developed algorithm is extensively used in clinical practice.
+      </p>
+    </div>
+    <div class="project-links buttons">
+      <a href="{{ site.data.assets.pdfs.msc_thesis }}" class="button">Master's Thesis</a>
+      <a href="{{ site.data.urls.projects.liquid_biopsy_NSCLC }}" class="button">Paper</a>
+      <a href="{{ site.data.urls.projects.vALK }}" class="button">Code</a>
+    </div>
+  </div>
+  <div class="project-item">
+    <div class="project-image">
+      <img src="{{ site.data.assets.images.projects.OnkoPROs }}" alt="OnkoPROs" />
+    </div>
+    <h3 class="project-title">OnkoPROs</h3>
+    <div class="project-subtitle">
+      Platform for the Management and Follow-Up of Oncological Patients
+    </div>
+    <div class="project-description">
+      <p>
+        OnkoPROs is an interoperable web, mobile, and server platform created to assist health
+        professionals at the San Sebastián Oncology Hospital in tailoring treatment plans and
+        remotely monitoring cancer patients undergoing rehabilitation, thus minimizing their
+        frequent visits to the hospital for routine check-ups.
+      </p>
+      <p>
+        The platform includes a web application for clinicians to design and gather patient-reported
+        outcomes (PROs), as well as a mobile application for patients. Through the mobile app,
+        patients can complete questionnaires, report their health status, communicate with their
+        doctors, and receive the results of their clinical evaluations.
+      </p>
+      <p>
+        OnkoPROs was developed using Angular and NativeScript for the frontend, and Nginx and
+        JavaScript for the backend, connecting to the medical record database of the hospital.
+      </p>
+    </div>
+    <div class="project-links buttons">
+      <a href="https://github.com/ivadym/OnkoPROs" class="button">Code</a>
+    </div>
+  </div>
+  <div class="project-item">
+    <div class="project-image">
+      <img
+        src="{{ site.data.assets.images.projects.FERehab }}"
+        alt="Facial Expression Recognition Project"
+      />
+    </div>
+    <h3 class="project-title">FERehab</h3>
+    <div class="project-subtitle">
+      Facial Expression Recognition Machine Learning Tool for Multifaceted Rehabilitation
+    </div>
+    <div class="project-description">
+      <p>
+        FERehab originated from my bachelor's final project with the aim of enhancing the
+        functional, emotional, cognitive, and social abilities of children with Autism Spectrum
+        Disorder (ASD) and elderly individuals with Parkinson's Disease (PD).
+      </p>
+      <p>
+        It features an AI and computer vision-based real-time facial expression recognition model,
+        along with an interactive game for patients, all integrated into a Raspberry Pi smart
+        mirror. Currently, it's in the proof-of-concept phase at the Smart House Living Lab of the
+        Technical University of Madrid.
+      </p>
+      <p>
+        On the technical side, the machine learning model has been designed using a Convolutional
+        Neural Network (CNN) architecture, a Generative Adversarial Network (GAN) to expand the
+        training dataset, and transfer learning methods.
+      </p>
+    </div>
+    <div class="project-links buttons">
+      <a href="{{ site.data.assets.pdfs.bsc_thesis }}" class="button">Bachelor's Thesis</a>
+      <a href="{{ site.data.urls.projects.FERehab }}" class="button">Code</a>
+    </div>
+  </div>
 </div>
