@@ -1,5 +1,17 @@
 /* Projects styles */
 
+.projects-row {
+  display: flex;
+  flex-direction: column;
+  gap: $spacing-unit;
+}
+
+.projects-column {
+  display: flex;
+  flex-direction: column;
+  gap: $spacing-unit;
+}
+
 .project {
   align-items: center;
   border-radius: $border-radius;
@@ -48,8 +60,15 @@
 }
 
 @include desktop-view() {
+  .projects-row {
+    flex-direction: row;
+  }
+
+  .projects-column {
+    flex: 50%;
+  }
+
   .project {
     column-gap: $spacing-unit;
-    grid-template-areas: "title title" "subtitle subtitle" "description image" " links image";
   }
 }
