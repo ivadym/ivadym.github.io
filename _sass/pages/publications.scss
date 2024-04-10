@@ -2,10 +2,13 @@
 
 .paper {
   align-items: center;
+  border-radius: $border-radius;
+  box-shadow: $border-shadow;
   display: grid;
   font-size: $secondary-font-size;
   grid-template-areas: "image" "title" "authors" "journal" "links";
   margin-bottom: $spacing-unit;
+  padding: $spacing-unit * 0.5;
   text-align: justify;
 }
 
@@ -15,10 +18,7 @@
   grid-area: image;
 
   img {
-    border-radius: $border-radius;
-    box-shadow: $border-shadow;
     margin-bottom: $spacing-unit * 0.5;
-    padding: $image-padding;
     width: 100%;
   }
 }
@@ -47,6 +47,7 @@
     column-gap: $spacing-unit;
     grid-template-areas: "image title" "image authors" "image journal" "image links";
     grid-template-rows: repeat(3, auto) 1fr;
+    padding: $spacing-unit * 0.25;
   }
 
   .paper-image {
