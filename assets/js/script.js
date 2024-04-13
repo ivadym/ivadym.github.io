@@ -1,7 +1,11 @@
 function showProjectOverview(id) {
-  document.getElementById(id).style.display = "block";
+  var element = document.getElementById(id);
+  element.classList.remove("roject-overview-hidden");
+  element.classList.add("project-overview-visible");
 }
 
 function hideProjectOverview(id) {
-  document.getElementById(id).style.display = "none";
+  var element = document.getElementById(id);
+  element.classList.remove("project-overview-visible");
+  element.classList.add("roject-overview-hidden");
 }
