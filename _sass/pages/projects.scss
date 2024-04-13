@@ -41,17 +41,19 @@
   margin-bottom: $spacing-unit;
 }
 
+.project-links {
+  .overview-button {
+    border-style: dotted;
+  }
+}
+
 .project-overview {
+  display: none;
   font-size: $secondary-font-size;
   margin-top: $spacing-unit;
 
   p:nth-child(2) {
     padding: $spacing-unit * 0.25 0;
-  }
-}
-
-.project-links {
-  .overview-button {
   }
 }
 
