@@ -1,9 +1,10 @@
 /* Header styles */
 
-.header {
+header {
   display: grid;
   gap: $spacing-unit;
   grid-template-areas: "title" "logo" "description";
+  margin-bottom: $spacing-unit * 2;
 }
 
 .header-title {
@@ -62,7 +63,7 @@
 }
 
 @include desktop-view() {
-  .header {
+  header {
     grid-template-areas: ". title" "logo description" "logo description";
     grid-template-rows: auto 1fr;
   }

@@ -63,13 +63,13 @@ main {
   margin: auto;
   max-width: $content-width;
 
-  .section-title {
-    font-size: $section-title-font-size;
-    margin-bottom: $spacing-unit * 2;
-    text-align: center;
-  }
-
-  .section {
+  section {
     margin-bottom: $spacing-unit * 3;
+
+    .section-title {
+      font-size: $section-title-font-size;
+      margin-bottom: $spacing-unit * 2;
+      text-align: center;
+    }
   }
 }
