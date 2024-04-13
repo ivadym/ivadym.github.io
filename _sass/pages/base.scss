@@ -35,6 +35,10 @@ body {
 }
 
 hr {
+  background-image: linear-gradient(to right, white, black, white);
+  border-radius: $border-radius;
+  border: none;
+  height: $timeline-ruler-width;
   margin: $spacing-unit * 0.5 0;
 }
 
@@ -60,10 +64,12 @@ main {
   max-width: $content-width;
 
   .section-title {
-    margin-bottom: $spacing-unit;
+    font-size: $section-title-font-size;
+    margin-bottom: $spacing-unit * 2;
+    text-align: center;
   }
 
   .section {
-    margin-bottom: $spacing-unit * 2;
+    margin-bottom: $spacing-unit * 3;
   }
 }
