@@ -16,7 +16,7 @@
   align-items: center;
   border-radius: $border-radius;
   box-shadow: $border-shadow;
-  padding: $spacing-unit * 0.5;
+  padding: $padding-unit * 2;
   text-align: justify;
 }
 
@@ -55,7 +55,7 @@
   visibility: hidden;
 
   p:nth-child(2) {
-    padding: $spacing-unit * 0.25 0;
+    padding: $padding-unit 0;
   }
 }
 

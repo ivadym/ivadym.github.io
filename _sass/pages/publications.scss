@@ -8,7 +8,7 @@
   font-size: $secondary-font-size;
   grid-template-areas: "image" "title" "authors" "journal" "links";
   margin-bottom: $spacing-unit;
-  padding: $spacing-unit * 0.5;
+  padding: $padding-unit * 2;
   text-align: justify;
 }
 

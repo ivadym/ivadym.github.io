@@ -58,7 +58,7 @@ header {
   text-align: justify;
 
   p:nth-child(2) {
-    padding: $spacing-unit * 0.25 0;
+    padding: $padding-unit 0;
   }
 }
 
@@ -82,6 +82,6 @@ header {
   }
 
   .header-description {
-    padding: 0 $spacing-unit * 0.5;
+    padding: 0 $padding-unit * 2;
   }
 }
