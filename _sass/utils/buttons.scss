@@ -1,9 +1,12 @@
 // Individual button
 .button {
+  align-items: center;
   border-radius: $border-radius;
   border: 1px dotted;
+  display: flex;
   font-size: $secondary-font-size;
-  text-align: center;
+  justify-content: center;
+  padding: 0 $element-padding;
   white-space: nowrap;
   width: 100%;
 }
