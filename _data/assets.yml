@@ -26,6 +26,9 @@ images:
     beyondcell: /assets/images/publications/beyondcell.png
     liquid_biopsy_NSCLC: /assets/images/publications/liquid_biopsy_NSCLC.png
 
+js:
+  script: /assets/js/script.js
+
 pdfs:
   balsamic_poster: /assets/pdfs/balsamic_poster.pdf
   bsc_thesis: /assets/pdfs/bachelors_thesis.pdf
