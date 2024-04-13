@@ -11,11 +11,19 @@
           Bioinformatic Analysis Pipeline for Somatic Mutations in Cancer
         </h4>
         <div class="project-links buttons">
-          <a href="javascript:void(0)" class="overview-button button" target="_self">Overview</a>
+          <a
+            href="javascript:void(0)"
+            class="overview-button button"
+            target="_self"
+            onmouseenter="showProjectOverview('BALSAMIC')"
+            onmouseleave="hideProjectOverview('BALSAMIC')"
+          >
+            Overview
+          </a>
           <a href="{{ site.data.assets.pdfs.balsamic_poster }}" class="button">Poster</a>
           <a href="{{ site.data.urls.projects.BALSAMIC }}" class="button">GitHub</a>
         </div>
-        <div class="project-overview">
+        <div class="project-overview" id="BALSAMIC">
           <p>
             BALSAMIC is a Clinical Genomics Core Facility effort aimed at facilitating the
             identification of somatic mutations and the interpretation of large-scale DNA sequencing
@@ -48,12 +56,20 @@
           from Non-Small Cell Lung Cancer Patients
         </h4>
         <div class="project-links buttons">
-          <a href="javascript:void(0)" class="overview-button button" target="_self">Overview</a>
+          <a
+            href="javascript:void(0)"
+            class="overview-button button"
+            target="_self"
+            onmouseenter="showProjectOverview('vALK')"
+            onmouseleave="hideProjectOverview('vALK')"
+          >
+            Overview
+          </a>
           <a href="{{ site.data.urls.projects.liquid_biopsy_NSCLC }}" class="button">Paper</a>
           <a href="{{ site.data.assets.pdfs.msc_thesis }}" class="button">Master's Thesis</a>
           <a href="{{ site.data.urls.projects.vALK }}" class="button">GitHub</a>
         </div>
-        <div class="project-overview">
+        <div class="project-overview" id="vALK">
           <p>
             As part of my master's thesis project, I developed a somatic variant filtering pipeline
             and a user-friendly graphical interface with the goal of automating the manual curation
@@ -82,10 +98,18 @@
           Platform for the Management and Follow-Up of Oncological Patients
         </h4>
         <div class="project-links buttons">
-          <a href="javascript:void(0)" class="overview-button button" target="_self">Overview</a>
+          <a
+            href="javascript:void(0)"
+            class="overview-button button"
+            target="_self"
+            onmouseenter="showProjectOverview('OnkoPROs')"
+            onmouseleave="hideProjectOverview('OnkoPROs')"
+          >
+            Overview
+          </a>
           <a href="https://github.com/ivadym/OnkoPROs" class="button">GitHub</a>
         </div>
-        <div class="project-overview">
+        <div class="project-overview" id="OnkoPROs">
           <p>
             OnkoPROs is an interoperable web, mobile, and server platform created to assist health
             professionals at the San Sebastián Oncology Hospital in tailoring treatment plans and
@@ -116,11 +140,19 @@
           Facial Expression Recognition Machine Learning Tool for Multifaceted Rehabilitation
         </h4>
         <div class="project-links buttons">
-          <a href="javascript:void(0)" class="overview-button button" target="_self">Overview</a>
+          <a
+            href="javascript:void(0)"
+            class="overview-button button"
+            target="_self"
+            onmouseenter="showProjectOverview('FERehab')"
+            onmouseleave="hideProjectOverview('FERehab')"
+          >
+            Overview
+          </a>
           <a href="{{ site.data.assets.pdfs.bsc_thesis }}" class="button">Bachelor's Thesis</a>
           <a href="{{ site.data.urls.projects.FERehab }}" class="button">GitHub</a>
         </div>
-        <div class="project-overview">
+        <div class="project-overview" id="FERehab">
           <p>
             FERehab originated from my bachelor's final project with the aim of enhancing the
             functional, emotional, cognitive, and social abilities of children with Autism Spectrum
