@@ -53,8 +53,8 @@
 
 .timeline-title {
   grid-area: title;
-  padding-bottom: $spacing-unit * 0.25;
-  padding-top: $spacing-unit * 0.5;
+  padding-bottom: $padding-unit;
+  padding-top: $padding-unit * 2;
 }
 
 .timeline-description {
@@ -96,6 +96,6 @@
   }
 
   .timeline-description {
-    padding-top: $spacing-unit * 0.25;
+    padding-top: $padding-unit;
   }
 }

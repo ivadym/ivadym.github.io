@@ -47,7 +47,6 @@
     column-gap: $spacing-unit;
     grid-template-areas: "image title" "image authors" "image journal" "image links";
     grid-template-rows: repeat(3, auto) 1fr;
-    padding: $spacing-unit * 0.25;
   }
 
   .paper-image {
