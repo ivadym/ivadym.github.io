@@ -67,12 +67,6 @@
   visibility: visible;
 }
 
-.project-overview-hidden {
-  max-height: 0;
-  opacity: 0;
-  visibility: hidden;
-}
-
 @include desktop-view() {
   .projects-row {
     flex-direction: row;
