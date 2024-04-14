@@ -52,6 +52,7 @@
 }
 
 .timeline-title {
+  font-size: $timeline-title-font-size;
   grid-area: title;
   padding-bottom: $padding-unit;
   padding-top: $padding-unit * 2;
