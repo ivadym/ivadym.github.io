@@ -38,7 +38,7 @@
 .project-subtitle {
   color: $secondary-color;
   font-weight: $base-font-weight;
-  margin-bottom: $spacing-unit;
+  margin-bottom: $spacing-unit * 0.75;
 }
 
 .project-links {
@@ -61,7 +61,7 @@
 }
 
 .project-overview-visible {
-  margin-top: $spacing-unit;
+  margin-top: $spacing-unit * 0.75;
   max-height: 999px;
   opacity: 1;
   visibility: visible;
