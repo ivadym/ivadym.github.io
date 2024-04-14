@@ -58,7 +58,7 @@ header {
   text-align: justify;
 
   p:nth-child(2) {
-    padding: $padding-unit 0;
+    padding: $padding-unit * 2 0;
   }
 }
 
