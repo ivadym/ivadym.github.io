@@ -33,12 +33,14 @@
 
 .project-title {
   grid-area: title;
+  text-align: center;
 }
 
 .project-subtitle {
   color: $secondary-color;
   font-weight: $base-font-weight;
   margin-bottom: $spacing-unit * 0.75;
+  text-align: center;
 }
 
 .project-links {
