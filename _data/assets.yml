@@ -2,6 +2,8 @@ css:
   main: /assets/css/main.css
 
 images:
+  head:
+    favicon: /assets/images/head/favicon.ico
   header:
     cv: /assets/images/header/cv.svg
     envelope: /assets/images/header/envelope.svg
