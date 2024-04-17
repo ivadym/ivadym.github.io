@@ -1,0 +1,38 @@
+css:
+  main: /assets/css/main.css
+
+images:
+  head:
+    favicon: /assets/images/head/favicon.ico
+  header:
+    cv: /assets/images/header/cv.svg
+    envelope: /assets/images/header/envelope.svg
+    github: /assets/images/header/github.svg
+    profile: /assets/images/header/vadym.png
+    scholar: /assets/images/header/google-scholar.svg
+    x_twitter: /assets/images/header/x-twitter.svg
+  timeline:
+    BIOGIPUZKOA: /assets/images/timeline/BIOGIPUZKOA.png
+    CNIO: /assets/images/timeline/CNIO.png
+    graduation_cap: /assets/images/timeline/graduation_cap.svg
+    KI: /assets/images/timeline/KI.png
+    LifeSTech: /assets/images/timeline/LifeSTech.png
+    PdH: /assets/images/timeline/PdH.png
+    UPM: /assets/images/timeline/UPM.png
+  projects:
+    balsamic_poster: /assets/images/projects/balsamic_poster.png
+    FERehab: /assets/images/projects/FERehab.gif
+    OnkoPROs: /assets/images/projects/OnkoPROs.png
+    vALK: /assets/images/projects/vALK.png
+  publications:
+    beyondcell: /assets/images/publications/beyondcell.png
+    liquid_biopsy_NSCLC: /assets/images/publications/liquid_biopsy_NSCLC.png
+
+js:
+  script: /assets/js/script.js
+
+pdfs:
+  balsamic_poster: /assets/pdfs/balsamic_poster.pdf
+  bsc_thesis: /assets/pdfs/bachelors_thesis.pdf
+  cv: /assets/pdfs/cv.pdf
+  msc_thesis: /assets/pdfs/masters_thesis.pdf

@@ -1,0 +1,76 @@
+/* Basic styles */
+
+html {
+  font-family: $base-font-family;
+  font-size: $base-font-size;
+  font-weight: $base-font-weight;
+  line-height: $base-line-height;
+  scroll-behavior: smooth;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+hr {
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: $heading-font-weight;
+}
+
+body {
+  margin: $spacing-unit;
+}
+
+hr {
+  background-image: linear-gradient(to right, white, black, white);
+  border-radius: $border-radius;
+  border: none;
+  height: $timeline-ruler-width;
+  margin: $spacing-unit * 0.5 0;
+}
+
+a {
+  color: $link-color;
+  font-weight: $bold-font-weight;
+  text-decoration: none;
+
+  &:hover {
+    color: $link-hover-color;
+  }
+}
+
+b {
+  font-weight: $bold-font-weight;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+main {
+  margin: auto;
+  max-width: $content-width;
+
+  section {
+    margin-bottom: $spacing-unit * 3;
+
+    .section-title {
+      font-size: $section-title-font-size;
+      margin-bottom: $spacing-unit * 2;
+      text-align: center;
+    }
+  }
+}
