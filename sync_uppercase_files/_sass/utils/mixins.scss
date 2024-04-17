@@ -1,6 +1,0 @@
-// Mobile-first layout
-@mixin desktop-view($min-width: $desktop-min-width) {
-  @media only screen and (min-width: $min-width) {
-    @content;
-  }
-}
