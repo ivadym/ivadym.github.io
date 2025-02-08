@@ -8,9 +8,9 @@ images:
     cv: /assets/images/header/cv.svg
     envelope: /assets/images/header/envelope.svg
     github: /assets/images/header/github.svg
+    linkedin: /assets/images/header/linkedin.svg
     profile: /assets/images/header/vadym.png
     scholar: /assets/images/header/google-scholar.svg
-    x_twitter: /assets/images/header/x-twitter.svg
   timeline:
     BIOGIPUZKOA: /assets/images/timeline/BIOGIPUZKOA.png
     CNIO: /assets/images/timeline/CNIO.png
